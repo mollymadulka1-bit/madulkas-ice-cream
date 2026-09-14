@@ -45,9 +45,6 @@
     "latitude": 42.2565,
     "longitude": -71.7906
   },
-  "openingHoursSpecification": [
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"21:00"}
-  ],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.5",
@@ -1171,7 +1168,7 @@ p{color:var(--text-light)}
             </div>
             <div class="info-row">
               <div class="info-icon">&#128336;</div>
-              <div class="info-text"><strong>Seasonal Hours</strong><br>Spring &amp; Summer only</div>
+              <div class="info-text"><strong>Hours</strong><br>Closed for the season</div>
             </div>
           </div>
           <div class="location-actions">
@@ -1203,7 +1200,7 @@ p{color:var(--text-light)}
             </div>
             <div class="info-row">
               <div class="info-icon">&#128336;</div>
-              <div class="info-text"><strong>Seasonal Hours</strong><br>Spring &amp; Summer only</div>
+              <div class="info-text"><strong>Hours</strong><br>Closed for the season</div>
             </div>
             <div class="info-row">
               <div class="info-icon">&#127874;</div>
@@ -1725,13 +1722,7 @@ const DEFAULT_CONFIG = {
     ]
   },
   hours: [
-    { day: "Monday",    hours: "12 – 9 PM" },
-    { day: "Tuesday",   hours: "12 – 9 PM" },
-    { day: "Wednesday", hours: "12 – 9 PM" },
-    { day: "Thursday",  hours: "12 – 9 PM" },
-    { day: "Friday",    hours: "12 – 9 PM" },
-    { day: "Saturday",  hours: "12 – 9 PM" },
-    { day: "Sunday",    hours: "12 – 9 PM" }
+    { day: "Status", hours: "Closed for the season" }
   ],
   sections: {
     servicesHeadline: "A little something for everyone.",
